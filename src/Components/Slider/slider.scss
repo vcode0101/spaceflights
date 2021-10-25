@@ -1,0 +1,23 @@
+.slider {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__desc {
+        font-family: var(--main-font);
+        width: 50%;
+    }
+    &__title {
+        font-size: 72px;
+    }
+    &__subtitle {
+        font-size: 20px;
+    }
+    &__arrow {
+        .arrow-prev {}
+        .arrow-next {}
+    }
+    &__picture {
+        width: 50%;
+    }
+}

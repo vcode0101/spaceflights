@@ -1,0 +1,42 @@
+.launch {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgb(32, 28, 61);
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    overflow: hidden;
+    width: 75%;
+    &__picture {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100px;
+    }
+    &__info {
+        color: var(--dark-blue);
+        padding: 10px;
+        .launch__date {
+            font-size: 12px;
+            color: var(--light-grey);
+        }
+        .launch__title {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .launch__status {
+            font-size: 12px;
+            .green_badge {
+                background-color: #c2ffb9;
+                padding: 0 6px;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+@media (max-width:965px) {
+    .launch {
+        width: unset;
+    }
+}

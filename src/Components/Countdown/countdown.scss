@@ -1,0 +1,19 @@
+.countdown {
+    text-align: center;
+    font-family: var(--deco-font);
+    &__title {}
+    &__timer {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        border: 1px solid #fff;
+        min-width: 216px;
+        &>div {
+            display: flex;
+            justify-content: center;
+            span {
+                min-width: 40px;
+            }
+        }
+    }
+}

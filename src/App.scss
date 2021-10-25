@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;700&family=Titillium+Web:wght@400;600&display=swap');
+:root {
+    --dark-blue: #31394D;
+    --rose: #B04E9B;
+    --light-grey: #3d3d3d;
+    --menu-font: 'Bebas Neue', sans-serif;
+    --deco-font: 'Rajdhani', sans-serif;
+    --main-font: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-family: var(--main-font);
+    color: #fff;
+    background-image: url('./img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.App {
+    min-width: 400px;
+}
+
+.primary-button {
+    background-color: var(--rose);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0px 33px;
+}
